@@ -118,6 +118,7 @@ cc_defaults {
 
 cc_library {
     name: "libcameraservice",
+    defaults: ["needs_camera_boottime_defaults",],
 
     defaults: [
         "libcameraservice_deps",
