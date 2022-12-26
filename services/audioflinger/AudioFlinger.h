@@ -763,6 +763,8 @@ private:
 
     // Bluetooth Variable latency control logic is enabled or disabled
     std::atomic<bool> mBluetoothLatencyModesEnabled = true;
+
+#include "EffectDapController.h"
 };
 
 // ----------------------------------------------------------------------------
